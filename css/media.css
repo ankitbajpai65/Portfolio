@@ -1,0 +1,1004 @@
+@media only screen and (max-width: 450px) {
+    html {
+        font-size: 35%;
+    }
+
+    .container {
+        background-image: url('../img/bg2.jpg');
+    }
+
+    #hamburger {
+        width: 10%;
+    }
+
+    .mobImgItem {
+        height: 6.5rem;
+    }
+
+    .mobItem {
+        margin: 9rem;
+    }
+
+    .mobItem a {
+        font-size: 4rem;
+    }
+
+    #navSec {
+        height: 0%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #mobileNav {
+        display: block;
+    }
+
+    #homeSec {
+        height: 110rem;
+    }
+
+    .home {
+        padding-top: 10rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home p {
+        line-height: 5rem;
+    }
+
+    .home #para-1 {
+        font-size: 6rem;
+        margin-bottom: 4rem;
+    }
+
+    .home #para-2 {
+        font-size: 6.8rem;
+        line-height: 10rem;
+    }
+
+    .home #para-3 {
+        font-size: 3.2rem;
+        margin-bottom: 2rem;
+    }
+
+    #cv {
+        margin: auto;
+        margin-top: 4rem;
+        width: 25rem;
+    }
+
+    #cv button {
+        height: 10rem;
+        width: 25rem;
+        font-size: 3.3rem;
+    }
+
+
+    /* about section */
+    .about {
+        display: none;
+    }
+
+    #aboutPara2 {
+        display: block;
+        font-size: 3rem;
+        line-height: 5rem;
+        margin: 1.5rem;
+    }
+
+    #aboutDiv {
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .aboutImg {
+        width: 60rem;
+        float: left;
+        margin: -4rem -10rem;
+        margin-right: -3rem;
+        background-size: 100%;
+    }
+
+    .iconsBody {
+        left: 9.2rem;
+    }
+
+    .sideHeading {
+        left: 16.5rem;
+    }
+
+    /* Education section */
+    #eduSec {
+        height: 95rem;
+        margin-bottom: 8rem;
+    }
+
+    .eduDiv {
+        background-position: center;
+        background-size: 135%;
+    }
+
+    .education {
+        padding: 2rem 0 2rem 0;
+        height: fit-content;
+        background-color: #0000002e;
+        margin-bottom: 0;
+        /* width: 58rem; */
+        width: fit-content;
+        padding-left: 0rem;
+        margin: 0;
+    }
+
+    .education h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 6.3rem;
+    }
+
+    .education h4 {
+        font-size: 2.8rem;
+    }
+
+    .education h1 {
+        font-size: 3.6rem;
+    }
+
+    .education h2 {
+        font-size: 2.9rem;
+    }
+
+    .education h3 {
+        font-size: 2.8rem;
+    }
+
+    hr {
+        margin-left: 8rem;
+        /* margin-top: 18.5rem; */
+        margin-bottom: 5rem;
+    }
+
+    /* skills section */
+    .skillDiv {
+        padding: 0;
+        padding-bottom: 6rem;
+        margin-bottom: 7rem;
+    }
+
+    .skills {
+        height: 33rem;
+        width: 25rem;
+        margin: 4rem 3rem 4rem 3rem;
+    }
+
+    .skills img {
+        height: 20rem;
+    }
+
+    .skills h3 {
+        font-size: 3.3rem;
+    }
+
+    /* Project section */
+    .projectDiv {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 8rem;
+    }
+
+    .flip-card {
+        margin-bottom: 11rem;
+    }
+
+    .flip-card-front,
+    .projectImg {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -3.6rem;
+    }
+
+    .flip-card-back {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -7rem;
+    }
+
+    .projectHead {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .projectInfo {
+        font-size: 2.7rem;
+        line-height: 3.7rem;
+    }
+
+    .projectLink {
+        font-size: 2.3rem;
+        margin-top: 4rem;
+    }
+
+    #contactSec {
+        height: 114rem;
+    }
+
+    .contactDiv {
+        height: 100rem;
+    }
+
+    .contactForm form {
+        align-items: center;
+    }
+
+    .contactForm input,
+    textarea,
+    button {
+        margin: 2.5rem 5rem;
+        font-size: 2.5rem;
+        width: 51rem;
+        padding: 1rem 2rem;
+    }
+
+    /* Footer section */
+    #footer {
+        height: 16rem;
+    }
+
+    .footerImg {
+        height: 4.5rem;
+        margin: 1rem 3rem;
+    }
+
+    #footerHead {
+        font-size: 2.5rem;
+        margin: 4rem 0rem;
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+    html {
+        font-size: 40%;
+    }
+
+    .container {
+        background-image: url('../img/bg2.jpg');
+    }
+
+    #hamburger {
+        width: 9%;
+    }
+
+    .mobImgItem {
+        height: 5.5rem;
+    }
+
+    .mobItem {
+        margin: 8rem;
+    }
+
+    .mobItem a {
+        font-size: 3.5rem;
+    }
+
+    #navSec {
+        height: 0%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #mobileNav {
+        display: block;
+    }
+
+    #homeSec {
+        height: 98rem;
+    }
+
+    .home {
+        padding-top: 10rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home p {
+        line-height: 5rem;
+    }
+
+    .home #para-1 {
+        font-size: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .home #para-2 {
+        font-size: 7rem;
+        line-height: 10rem;
+        word-spacing: 13px;
+    }
+
+    .home #para-3 {
+        font-size: 3rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    #cv {
+        margin: auto;
+        margin-top: 6rem;
+        width: 25rem;
+    }
+
+    #cv button {
+        height: 9rem;
+        width: 23rem;
+        font-size: 3.3rem;
+    }
+
+    /* about section */
+    .about {
+        display: none;
+    }
+
+    #aboutPara2 {
+        display: block;
+        font-size: 2.9rem;
+        line-height: 4.5rem;
+        margin: 1.5rem 2rem;
+    }
+
+    #aboutDiv {
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .aboutImg {
+        float: left;
+        margin: -4rem -10rem;
+        margin-right: -5rem;
+        background-size: 60rem;
+    }
+
+    .iconsBody {
+        left: 9.2rem;
+    }
+
+    .sideHeading {
+        left: 16.5rem;
+    }
+
+    /* Education section */
+    #eduSec {
+        height: 94rem;
+        margin-bottom: 8rem;
+    }
+
+    .eduDiv {
+        background-position: center;
+        background-size: 123%;
+    }
+
+    .education {
+        padding: 2rem 0 2rem 0;
+        height: fit-content;
+        background-color: #0000002e;
+        margin-bottom: 0;
+        /* width: 58rem; */
+        padding-left: 0rem;
+        /* margin: 2rem 4.5rem; */
+    }
+
+    .education h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 6.2rem;
+    }
+
+    .education h4 {
+        font-size: 2.8rem;
+    }
+
+    .education h1 {
+        font-size: 3.6rem;
+    }
+
+    .education h2 {
+        font-size: 2.9rem;
+    }
+
+    .education h3 {
+        font-size: 2.8rem;
+    }
+
+    hr {
+        margin-left: 8rem;
+        /* margin-top: 18.5rem; */
+        margin-bottom: 5rem;
+    }
+
+    /* skills section */
+    .skillDiv {
+        padding: 0;
+        padding-bottom: 6rem;
+        margin-bottom: 7rem;
+    }
+
+    .skills {
+        height: 31rem;
+        width: 24rem;
+        margin: 4rem;
+    }
+
+    .skills img {
+        height: 19rem;
+    }
+
+    .skills h3 {
+        font-size: 3.2rem;
+    }
+
+    /* Project section */
+    .projectDiv {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 8rem;
+    }
+
+    .flip-card {
+        margin-bottom: 11rem;
+    }
+
+    .flip-card-front,
+    .projectImg {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -3.5rem;
+    }
+
+    .flip-card-back {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -7rem;
+    }
+
+    .projectHead {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .projectInfo {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .projectLink {
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    #contactSec {
+        height: 114rem;
+    }
+
+    .contactDiv {
+        height: 100rem;
+    }
+
+    .contactForm form {
+        align-items: center;
+    }
+
+    .contactForm input,
+    textarea,
+    button {
+        margin: 2.5rem 5rem;
+        font-size: 2.5rem;
+        width: 55rem;
+        padding: 1rem 2rem;
+    }
+
+    /* Footer section */
+    #footer {
+        height: 16rem;
+    }
+
+    .footerImg {
+        height: 4.5rem;
+        margin: 1rem 3rem;
+    }
+
+    #footerHead {
+        font-size: 2.5rem;
+        margin: 4rem 0rem;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    html {
+        font-size: 45%;
+    }
+
+    #hamburger {
+        width: 7%;
+    }
+
+    #navSec {
+        height: 0%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #mobileNav {
+        display: block;
+    }
+
+    #homeSec {
+        height: 88rem;
+    }
+
+    .home {
+        padding-top: 10rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home p {
+        line-height: 5rem;
+    }
+
+    .home #para-1 {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .home #para-2 {
+        font-size: 7rem;
+        line-height: 10rem;
+        word-spacing: 13px;
+    }
+
+    .home #para-3 {
+        font-size: 2.8rem;
+        width: 80%;
+        margin: auto;
+    }
+
+    #cv {
+        margin: auto;
+        margin-top: 3rem;
+        width: 25rem;
+    }
+
+    #cv button {
+        height: 9rem;
+        width: 23rem;
+        font-size: 3.2rem;
+    }
+
+    /* about section */
+    .about {
+        display: none;
+    }
+
+    #aboutPara2 {
+        display: block;
+        font-size: 2.7rem;
+        line-height: 4.5rem;
+        margin: 1.5rem;
+    }
+
+    #aboutDiv {
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .aboutImg {
+        float: left;
+        margin: -3rem -6rem;
+        margin-right: -3rem;
+    }
+
+    .iconsBody {
+        left: 9.2rem;
+    }
+
+    .sideHeading {
+        left: 16.5rem;
+    }
+
+    #eduSec {
+        height: 76rem;
+        margin-bottom: 7rem;
+    }
+
+    .eduDiv {
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .education {
+        padding-left: 0rem;
+    }
+
+    .education h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 6rem;
+    }
+
+    .education h4 {
+        font-size: 2.5rem;
+    }
+
+    .education h1 {
+        font-size: 3.5rem;
+    }
+
+    .education h2 {
+        font-size: 2.8rem;
+    }
+
+    .education h3 {
+        font-size: 2.6rem;
+    }
+
+    hr {
+        margin-left: 7.2rem;
+        margin-top: 18.5rem;
+        margin-bottom: 5rem;
+    }
+
+    /* skills section */
+    .skills {
+        height: 29rem;
+        width: 22rem;
+        margin: 4rem;
+    }
+
+    .skills img {
+        height: 17rem;
+    }
+
+    .skills h3 {
+        font-size: 2.6rem;
+    }
+
+    /* Project section */
+    .projectDiv {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 8rem;
+    }
+
+    .flip-card {
+        margin-bottom: 11rem;
+    }
+
+    .flip-card-front,
+    .projectImg {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -3.5rem;
+    }
+
+    .flip-card-back {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -7rem;
+    }
+
+    .projectHead {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .projectInfo {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .projectLink {
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    #contactSec {
+        height: 114rem;
+    }
+
+    .contactDiv {
+        height: 100rem;
+    }
+
+    .contactForm form {
+        align-items: center;
+    }
+
+    .contactForm input,
+    textarea,
+    button {
+        margin: 2.5rem 5rem;
+        font-size: 2.5rem;
+        width: 60rem;
+        padding: 1rem 2rem;
+    }
+
+    /* Footer section */
+    #footer {
+        height: 15rem;
+    }
+
+    .footerImg {
+        height: 4.2rem;
+        margin: 1rem 3rem;
+    }
+
+    #footerHead {
+        font-size: 2.3rem;
+        margin: 3rem 0rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    html {
+        font-size: 50%;
+    }
+
+    #hamburger {
+        width: 5%;
+    }
+
+    #navSec {
+        height: 0%;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    #mobileNav {
+        display: block;
+    }
+
+    #homeSec {
+        height: 79rem;
+    }
+
+    .home {
+        padding-top: 10rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .home p {
+        line-height: 5rem;
+    }
+
+    .home #para-1 {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    .home #para-2 {
+        font-size: 6.5rem;
+        line-height: 8rem;
+        word-spacing: 10px;
+    }
+
+    .home #para-3 {
+        width: 65%;
+        font-size: 2.5rem;
+        margin: auto;
+    }
+
+    #cv {
+        margin: auto;
+        margin-top: 3rem;
+        width: 25rem;
+    }
+
+    #cv button {
+        height: 8rem;
+        width: 19rem;
+        font-size: 2.5rem;
+    }
+
+    .iconsBody {
+        left: 9.2rem;
+    }
+
+    .sideHeading {
+        left: 16.5rem;
+    }
+
+    .aboutPara {
+        font-size: 2.3rem;
+        line-height: 3.5rem;
+    }
+
+    .education {
+        padding-left: 0rem;
+    }
+
+    .education h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 5rem;
+    }
+
+    .education h4 {
+        font-size: 2rem;
+    }
+
+    .education h1 {
+        font-size: 3rem;
+    }
+
+    .education h2 {
+        font-size: 2.4rem;
+    }
+
+    .education h3 {
+        font-size: 2.1rem;
+    }
+
+    hr {
+        margin-left: 7.2rem;
+        margin-top: 6.5rem;
+    }
+
+    /* skills section */
+    .skills {
+        height: 24rem;
+        width: 19rem;
+    }
+
+    .skills img {
+        height: 15rem;
+    }
+
+    .skills h3 {
+        font-size: 2.6rem;
+    }
+
+    .eduDiv {
+        background-size: 55%;
+    }
+
+    .projectDiv {
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 7rem;
+    }
+
+    .flip-card {
+        margin-bottom: 11rem;
+    }
+
+    .flip-card-front,
+    .projectImg {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -3.5rem;
+    }
+
+    .flip-card-back {
+        height: 40rem;
+        width: 51rem;
+        margin-left: -7rem;
+    }
+
+    .projectHead {
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .projectInfo {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .projectLink {
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .contactForm form {
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        margin-left: 56rem;
+    }
+
+    .home #para-2 {
+        font-size: 5rem;
+    }
+
+    .iconsBody {
+        left: 9.2rem;
+    }
+
+    .sideHeading {
+        left: 16.5rem;
+    }
+
+    /* .aboutPara {
+        font-size: 2.3rem;
+        line-height: 3.5rem;
+    } */
+
+    .education {
+        padding-left: 0rem;
+    }
+
+    hr {
+        margin-left: 7rem;
+        margin-top: 3rem;
+    }
+
+    .eduDiv {
+        background-size: 55%;
+    }
+
+    #notes,
+    #countdown,
+    #calculator {
+        margin: 0rem 1rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+    html {
+        font-size: 60%;
+    }
+
+    .home {
+        margin-left: 67rem;
+    }
+
+    .home #para-2 {
+        font-size: 5.3rem;
+    }
+
+    .iconsBody {
+        left: 14rem;
+    }
+
+    .sideHeading {
+        left: 21rem;
+    }
+
+    .education {
+        padding-left: 5rem;
+    }
+
+    hr {
+        margin-left: 12.2rem;
+        margin-top: 0.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 60%;
+    }
+}

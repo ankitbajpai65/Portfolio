@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit Bajpai</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <!-- <link rel="stylesheet" href="media2.css"> -->
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <section id="navSec">
+            <nav class="navbar">
+                <img src="img/logo2.png" alt="" id="logo">
+                <ul class="list">
+                    <li class="item"><a href="#">Home</a></li>
+                    <li class="item"><a href="#aboutLink">About</a></li>
+                    <li class="item"><a href="#projectLink">Projects</a></li>
+                    <li class="item"><a href="#contactLink">Contact</a></li>
+
+                </ul>
+                <ul class="navImg">
+                    <li>
+                        <a href="mailto:ankit65bajpai@gmail.com"><img src="img/mail.png" class="imgItem"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ankit65bajpai" target="_blank"><img src="img/linkedin.png"
+                                class="imgItem"></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ankitbajpai65?tab=repositories" target="_blank"><img
+                                src="img/github.png" class="imgItem"></a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="mobileNav">
+            <div id="hamburgerDiv">
+                <img src="img/hamburger.png" alt="menu" id="hamburger" onclick="openNav()">
+            </div>
+            <div id="mobileDiv">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <img src="img/logo2.png" alt="" id="logomob">
+                    <ul class="mobList">
+                        <li class="mobItem"><a href="#" onclick="closeNav()">Home</a></li>
+                        <li class="mobItem"><a href="#aboutLink" onclick="closeNav()">About</a></li>
+                        <li class="mobItem"><a href="#projectLink" onclick="closeNav()">Projects</a></li>
+                        <li class="mobItem"><a href="#contactLink" onclick="closeNav()">Contact</a></li>
+                    </ul>
+                    <ul class="mobNavImg">
+                        <li>
+                            <a href="mailto:ankit65bajpai@gmail.com"><img src="img/mail.png" class="mobImgItem"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ankit65bajpai" target="_blank"><img
+                                    src="img/linkedin.png" class="mobImgItem"></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/ankitbajpai65?tab=repositories" target="_blank"><img
+                                    src="img/github.png" class="mobImgItem"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="homeSec">
+            <div class="home">
+                <p id="para-1">Hi,</p>
+                <p id="para-2">I am Ankit Bajpai</p>
+                <p id="para-3">Currently,I am persuing my B.Tech from University College of Engineering and
+                    Technology,Bikaner
+                </p>
+                <a href="https://drive.google.com/file/d/1_jq-x4Yeib9WWITygeghnSj7a0FszoF1/view?usp=sharing"
+                    target="_blank" id="cv"><button class="btn">View
+                        CV</button></a>
+            </div>
+        </section>
+    </section>
+    <span id="aboutLink"></span>
+    <section id="aboutSec">
+        <h1 class="midHeading">About</h1>
+        <div id="aboutDiv">
+            <div class="aboutImg">
+                <!-- <img src="img/profile.png" alt=""> -->
+            </div>
+            <div class="about">
+                <p class="aboutPara">I'm a 3rd year CSE undergrad student at UCET, Bikaner.I am a
+                    young developer and a computer science undergraduate who loves to design and develop.I am interested
+                    in
+                    stuff related to software & product
+                    development and playing with data. I like to work on things that create an impact to people's
+                    demands.I
+                    started
+                    learning web development in my 2nd year of my college and have been in love with it ever since.
+                    Basically
+                    my area of specialization in web development is frontend development. Besides this, I also found
+                    myself
+                    involved
+                    in solving data structures and algorithms problems.But it is not all I do, I can do a lot of other
+                    stuff
+                    too.Scroll
+                    down to know me more. 🙋‍♂️</p>
+            </div>
+            <p id="aboutPara2" class="aboutPara">I'm a 3rd year CSE undergrad student at UCET, Bikaner.I am a
+                young developer and a computer science undergraduate who loves to design and develop.I am interested in
+                stuff related to software & product
+                development and playing with data. I like to work on things that create an impact to people's demands.I
+                started
+                learning web development in my 2nd year of my college and have been in love with it ever since.
+                Basically
+                my area of specialization in web development is frontend development. Besides this, I also found myself
+                involved
+                in solving data structures and algorithms problems.But it is not all I do, I can do a lot of other stuff
+                too.Scroll
+                down to know me more. 🙋‍♂️</p>
+        </div>
+    </section>
+    <section id="eduSec">
+        <span class="iconsBody"><img src="img/educationIcon.png" class="headingIcon"></span>
+        <h1 class="sideHeading">Education-</h1>
+        <div class="eduDiv">
+            <div>
+                <div class="education">
+                    <div class="badge">
+                        <i data-vi="badge"></i>
+                    </div>
+                    <div class="eduHeading">
+                        <h4>2019-Pres</h4>
+                        <h1>B.Tech in Computer Science</h1>
+                        <h2>University College of Engineering and Technology-
+                            <h3>Bikaner Technical University</h3>
+                        </h2>
+                    </div>
+                </div>
+                <hr>
+                <div class="education">
+                    <div class="badge">
+                        <i data-vi="badge"></i>
+                    </div>
+                    <div class="eduHeading">
+                        <h4>2016-2017</h4>
+                        <h1>Intermediate(XII)</h1>
+                        <h2>Maharana Pratap Public School - Lucknow</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="sideImg"> -->
+            <!-- <img src="img/education.jpg" id="image"> -->
+            <!-- </div> -->
+        </div>
+    </section>
+    <section class="skillSec">
+        <span class="iconsBody"><img src="img/skillsIcon.png" class="headingIcon"></span>
+        <h1 class="sideHeading">Skills-</h1>
+        <div class="skillDiv">
+            <div class="skills">
+                <img src="img/c++_logo.png">
+                <h3>C++</h3>
+            </div>
+            <div class="skills">
+                <img src="img/htmlImg.png">
+                <h3>&ltHTML&gt</h3>
+            </div>
+            <div class="skills">
+                <img src="img/css-3.png">
+                <h3>{ CSS }</h3>
+            </div>
+            <div class="skills">
+                <img src="img/cLang.png">
+                <h3>C</h3>
+            </div>
+            <div class="skills">
+                <img src="img/js.png">
+                <h3>Javascript</h3>
+            </div>
+            <div class="skills">
+                <img src="img/reactLogo.png">
+                <h3>React</h3>
+            </div>
+            <div class="skills">
+                <img src="img/bootstrap.png">
+                <h3>Bootstrap</h3>
+            </div>
+            <div class="skills">
+                <img src="img/gitLogo.png">
+                <h3>Git</h3>
+            </div>
+
+        </div>
+    </section>
+    <span id="projectLink"></span>
+    <!-- <section id="projectSec">
+        <h1 class="midHeading">Projects</h1>
+        <div class="projectDiv">
+            <div id="countdown" class="project">
+                <div class="middle">
+                    <div class="projectInfo"><a href="#">Portfolio</a></div>
+                </div>
+            </div>
+            <div id="notes" class="project">
+                <div class="middle">
+                    <div class="projectInfo"><a href="https://gentle-plateau-64931.herokuapp.com/"
+                            target="_blank">Quora</a></div>
+                </div>
+            </div>
+            <div id="calculator" class="project">
+                <div class="middle">
+                    <div class="projectInfo">Calculator</div>
+                </div>
+            </div>
+
+        </div>
+    </section>  -->
+    <section id="projectSec">
+        <h1 class="midHeading">Projects</h1>
+        <div class="projectDiv">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="project flip-card-front">
+                        <img src="img/notes.jpg" class="projectImg">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1 class="projectHead">Todoapp</h1>
+                        <p class="projectInfo">This is a simple todo app built using react.</p>
+                        <a href="https://ankitbajpai65.github.io/todo-app/" target="_blank" class="projectLink">Click
+                            here to see</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="project flip-card-front">
+                        <img src="img/portfolio.png" class="projectImg">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1 class="projectHead">Portfolio website</h1>
+                        <p class="projectInfo">This is my portfolio website containing information regarding me.</p>
+                        <a href="http://ankitbajpai.herokuapp.com/" target="_blank" class="projectLink">Click here to
+                            see</a>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="project flip-card-front">
+                        <img src="img/calculator.jpg" class="projectImg">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1 class="projectHead">Quora</h1>
+                        <p class="projectInfo">This is the other website on which anyone can ask and answer any question
+                        </p>
+                        <a href="https://gentle-plateau-64931.herokuapp.com/" target="_blank" class="projectLink">Click
+                            here to see</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <span id="contactLink"></span>
+    <section id="contactSec">
+        <h1 class="midHeading">Contact me</h1>
+        <div class="contactDiv">
+            <div class="contactForm">
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+                    onload="if(submitted){window.location='#contactLink';}"></iframe>
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc8GeroGwqbvLAsmcmzjEPUGQIag0sG-21su9vkHSGVvpPcrw/formResponse"
+                    method="post" name="myForm" target="hidden_iframe" onsubmit="validate()">
+                    <input type="text" id="name" class="form" value="" placeholder="Name" name="entry.196249412">
+                    <input type="text" id="email" class="form" value="" placeholder="Email" name="entry.1279889149">
+                    <input type="text" id="mobile" class="form" value="" placeholder="Mobile No"
+                        name="entry.1047319567">
+                    <textarea rows="10" cols="20" id="message" class="form" placeholder="Message"
+                        name="entry.1924150806"></textarea>
+                    <button id="submitBtn" class="form" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footerDiv">
+            <ul class="icons">
+                <li>
+                    <a href="mailto:ankit65bajpai@gmail.com"><img src="img/mail.png" class="footerImg"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/ankit65bajpai" target="_blank"><img src="img/linkedin.png"
+                            class="footerImg"></a>
+                </li>
+                <li>
+                    <a href="https://github.com/ankitbajpai65?tab=repositories" target="_blank"><img
+                            src="img/github.png" class="footerImg"></a>
+                </li>
+            </ul>
+            <h3 id="footerHead">Copyright © 2020-2021 Ankit Bajpai</h3>
+        </div>
+    </footer>
+    <script type="text/javascript">var submitted = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10" type="text/javascript"></script>
+    <script src="https://unpkg.com/vivid-icons@1.0.10" type="text/javascript"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
