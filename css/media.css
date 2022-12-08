@@ -184,10 +184,10 @@
 
     /* Project section */
     .projectDiv {
-        height: 100%;
-        flex-direction: column;
+        height: 242rem;
+        flex-wrap: wrap;
         align-items: center;
-        padding-bottom: 8rem;
+        padding-bottom: 4rem;
     }
 
     .flip-card {
@@ -444,14 +444,14 @@
 
     /* Project section */
     .projectDiv {
-        height: 100%;
+        height: 240rem;
         flex-direction: column;
         align-items: center;
         padding-bottom: 8rem;
     }
 
     .flip-card {
-        margin-bottom: 11rem;
+        margin-bottom: 13rem;
     }
 
     .flip-card-front,
@@ -674,10 +674,10 @@
 
     /* Project section */
     .projectDiv {
-        height: 100%;
+        height: 235rem;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 8rem;
+        padding-bottom: 3rem;
     }
 
     .flip-card {
@@ -877,10 +877,10 @@
     }
 
     .projectDiv {
-        height: 100%;
+        height: 235rem;
         flex-direction: column;
         align-items: center;
-        padding-bottom: 7rem;
+        padding-bottom: 3rem;
     }
 
     .flip-card {
@@ -920,7 +920,51 @@
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1145px) {
+    html {
+        font-size: 55%;
+    }
+
+    .home {
+        margin-left: 56rem;
+    }
+
+    .home #para-2 {
+        font-size: 5rem;
+    }
+
+    .iconsBody {
+        left: 9.2rem;
+    }
+
+    .sideHeading {
+        left: 16.5rem;
+    }
+
+    .education {
+        padding-left: 0rem;
+    }
+
+    hr {
+        margin-left: 7rem;
+        margin-top: 3rem;
+    }
+
+    .eduDiv {
+        background-size: 55%;
+    }
+
+    /* #notes,
+    #countdown,
+    #calculator {
+        margin: 0rem 1rem;
+    } */
+    .projectDiv {
+        height: 108rem
+    }
+}
+
+@media only screen and (min-width: 1145px) and (max-width: 1199px) {
     html {
         font-size: 55%;
     }
@@ -959,10 +1003,13 @@
         background-size: 55%;
     }
 
-    #notes,
+    /* #notes,
     #countdown,
     #calculator {
         margin: 0rem 1rem;
+    } */
+    .projectDiv {
+        height: 80rem
     }
 }
 

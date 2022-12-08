@@ -490,18 +490,18 @@ hr {
 
 #projectSec {
     /* border: 2px solid black; */
-    /* height: 48rem; */
     margin-top: 5rem;
     box-shadow: 0px 15px 16px -15px rgb(197, 197, 197);
 }
 
 .projectDiv {
     /* border: 2px solid rgb(255, 17, 17); */
-    height: 41rem;
-    margin: 0rem 2rem;
-    /* padding: 4rem 3rem; */
+    height: 80rem;
+    padding-bottom: 3rem;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 /* .project {
@@ -513,30 +513,6 @@ hr {
 .projectImg {
     height: 30rem;
     width: 37rem;
-}
-
-#countdown {
-    background-image: url('../img/countdown.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.3s;
-}
-
-#notes {
-    background-image: url('../img/notes.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.3s;
-}
-
-#calculator {
-    background-image: url('../img/calculator.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: all 0.3s;
 }
 
 .middle {
@@ -570,7 +546,7 @@ hr {
 /* flip card */
 .flip-card {
     /* background-color: transparent; */
-    margin-top: 5rem;
+    margin: 0rem 1.3rem;
     height: 30rem;
     width: 37rem;
     perspective: 1000px;
