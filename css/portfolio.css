@@ -193,7 +193,8 @@ html {
     flex-direction: column;
 }
 
-.home #para-1 {
+.home #para-1,
+#profile {
     /* border: 2px solid black; */
     color: #f5ad42;
     font-size: 3.2rem;
@@ -588,7 +589,7 @@ hr {
 }
 
 .projectInfo {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 0rem 2rem;
     background: transparent;
     text-align: justify;

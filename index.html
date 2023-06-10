@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ankit Bajpai</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="./css/portfolio.css">
     <!-- <link rel="stylesheet" href="media2.css"> -->
@@ -35,8 +36,8 @@
                                 class="imgItem"></a>
                     </li>
                     <li>
-                        <a href="https://github.com/ankitbajpai65?tab=repositories" target="_blank"><img
-                                src="img/github.png" class="imgItem"></a>
+                        <a href="https://github.com/ankitbajpai65" target="_blank"><img src="img/github.png"
+                                class="imgItem"></a>
                     </li>
                 </ul>
             </nav>
@@ -73,12 +74,13 @@
         </section>
         <section id="homeSec">
             <div class="home">
-                <p id="para-1">Hi,</p>
-                <p id="para-2">I am Ankit Bajpai</p>
-                <p id="para-3">Currently,I am persuing my B.Tech from University College of Engineering and
-                    Technology,Bikaner
+                <p id="para-1">Hi, I am</p>
+                <p id="para-2">Ankit Bajpai</p>
+                <p id="para-3">I'm &ZeroWidthSpace;
+                    <span id="profile"></span>
                 </p>
-                <a href="https://drive.google.com/file/d/1tGUYQ4dF7x-Qfdv0gf7DwZFS1BRyM40s/view?usp=sharing"
+                <!-- <span id="para-4">I am a</span> -->
+                <a href="https://drive.google.com/file/d/1CbnwpsZ9sh6Dn6Ox5fO4QDW_HnkI9ODK/view?usp=sharing"
                     target="_blank" id="cv"><button class="btn">View
                         CV</button></a>
             </div>
@@ -161,35 +163,39 @@
         <span class="iconsBody"><img src="img/skillsIcon.png" class="headingIcon"></span>
         <h1 class="sideHeading">Skills-</h1>
         <div class="skillDiv">
-            <div class="skills">
-                <img src="img/c++_logo.png">
-                <h3>C++</h3>
-            </div>
-            <div class="skills">
+            <div class="skills" data-aos="fade-left">
                 <img src="img/htmlImg.png">
                 <h3>&ltHTML&gt</h3>
             </div>
-            <div class="skills">
+            <div class="skills" data-aos="fade-left">
                 <img src="img/css-3.png">
                 <h3>{ CSS }</h3>
             </div>
-            <div class="skills">
-                <img src="img/cLang.png">
-                <h3>C</h3>
-            </div>
-            <div class="skills">
+            <div class="skills" data-aos="fade-left">
                 <img src="img/js.png">
                 <h3>Javascript</h3>
             </div>
-            <div class="skills">
+            <div class="skills" data-aos="fade-left">
                 <img src="img/reactLogo.png">
                 <h3>React</h3>
             </div>
-            <div class="skills">
+            <div class="skills" data-aos="fade-left">
+                <img src="img/c++_logo.png">
+                <h3>C++</h3>
+            </div>
+            <div class="skills" data-aos="fade-left">
+                <img src="img/mui.png">
+                <h3>Material UI</h3>
+            </div>
+            <div class="skills" data-aos="fade-left">
                 <img src="img/bootstrap.png">
                 <h3>Bootstrap</h3>
             </div>
-            <div class="skills">
+            <div class="skills" data-aos="fade-left">
+                <img src="img/cLang.png">
+                <h3>C</h3>
+            </div>
+            <div class="skills" data-aos="fade-left">
                 <img src="img/gitLogo.png">
                 <h3>Git</h3>
             </div>
@@ -200,66 +206,67 @@
     <section id="projectSec">
         <h1 class="midHeading">Projects</h1>
         <div class="projectDiv">
-            <div class="flip-card">
+            <div class="flip-card" data-aos="fade-right">
                 <div class="flip-card-inner">
                     <div class="project flip-card-front">
-                        <img src="img/notes.jpg" class="projectImg">
+                        <img src="img/taskmaster.jpeg" class="projectImg">
                     </div>
                     <div class="flip-card-back">
-                        <h1 class="projectHead">Todoapp</h1>
-                        <p class="projectInfo">A simple todo list app built using React along with HTML, CSS and
-                            Bootstrap.
-                        </p>
-                        <a href="https://ankitbajpai65.github.io/todo-app/" target="_blank" class="projectLink">Click
+                        <h1 class="projectHead">Taskmaster</h1>
+                        <p class="projectInfo">A feature-rich todo app built using React, Material UI, CSS, and
+                            Firebase,
+                            providing an intuitive user interface and seamless user experience.</p>
+                        <a href="https://taskmaster-5da56.web.app/" target="_blank" class="projectLink">Click
                             here to see</a>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
+            <div class="flip-card" data-aos="fade-right">
                 <div class="flip-card-inner">
                     <div class="project flip-card-front">
                         <img src="img/e-commerce.jpg" class="projectImg">
                     </div>
                     <div class="flip-card-back">
-                        <h1 class="projectHead">aKart</h1>
-                        <p class="projectInfo">An e-commerce website in which the products are displayed/fetched
-                            using an API call.</p>
+                        <h1 class="projectHead">AKart</h1>
+                        <p class="projectInfo">An e-commerce web application with a responsive user interface, allowing
+                            users to browse and explore a catalogue of
+                            products fetched through API calls</p>
                         <a href="https://e-commerce-website-a04e4.web.app/" target="_blank" class="projectLink">Click
                             here to see</a>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
+            <div class="flip-card" data-aos="fade-right">
                 <div class="flip-card-inner">
                     <div class="project flip-card-front">
                         <img src="img/calculator.jpg" class="projectImg">
                     </div>
                     <div class="flip-card-back">
                         <h1 class="projectHead">Quans</h1>
-                        <p class="projectInfo">A straightforward website that lets users ask and respond to any
-                            questions.
+                        <p class="projectInfo">A user-friendly website that facilitates asking and answering questions
+                            in a straightforward manner.
                         </p>
                         <a href="https://quansss.herokuapp.com/" target="_blank" class="projectLink">Click
                             here to see</a>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
+            <div class="flip-card" data-aos="fade-right">
                 <div class="flip-card-inner">
                     <div class="project flip-card-front">
                         <img src="img/weather.jpg" class="projectImg">
                     </div>
                     <div class="flip-card-back">
                         <h1 class="projectHead">alertweather</h1>
-                        <p class="projectInfo"> A website that makes use of an API request to show the most recent
-                            weather information for the city user entered.
+                        <p class="projectInfo">A web-app that utilizes API requests to display up-to-date weather
+                            information for the user-selected city.
                         </p>
                         <a href="https://alertweather.netlify.app/" target="_blank" class="projectLink">Click
                             here to see</a>
                     </div>
                 </div>
             </div>
-            <div class="flip-card">
+            <div class="flip-card" data-aos="fade-right">
                 <div class="flip-card-inner">
                     <div class="project flip-card-front">
                         <img src="img/portfolio.png" class="projectImg">
@@ -274,7 +281,21 @@
                     </div>
                 </div>
             </div>
-
+            <div class="flip-card" data-aos="fade-right">
+                <div class="flip-card-inner">
+                    <div class="project flip-card-front">
+                        <img src="img/notes.jpg" class="projectImg">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1 class="projectHead">Todoapp</h1>
+                        <p class="projectInfo">A simple todo list app built using React along with HTML, CSS and
+                            Bootstrap.
+                        </p>
+                        <a href="https://ankitbajpai65.github.io/todo-app/" target="_blank" class="projectLink">Click
+                            here to see</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <span id="contactLink"></span>
@@ -282,8 +303,8 @@
         <h1 class="midHeading">Contact me</h1>
         <div class="contactDiv">
             <div class="contactForm">
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
-                    onload="if(submitted){window.location='#contactLink';}"></iframe>
+                <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display: none"
+                    onload="if(submitted){window.location='#contactLink';}"></iframe> -->
                 <form
                     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc8GeroGwqbvLAsmcmzjEPUGQIag0sG-21su9vkHSGVvpPcrw/formResponse"
                     method="post" name="myForm" target="hidden_iframe" onsubmit="validate()">
@@ -311,8 +332,8 @@
                             class="footerImg"></a>
                 </li>
                 <li>
-                    <a href="https://github.com/ankitbajpai65?tab=repositories" target="_blank"><img
-                            src="img/github.png" class="footerImg"></a>
+                    <a href="https://github.com/ankitbajpai65" target="_blank"><img src="img/github.png"
+                            class="footerImg"></a>
                 </li>
             </ul>
             <h3 id="footerHead">Copyright © 2020-2021 Ankit Bajpai</h3>
@@ -322,6 +343,13 @@
     <script src="https://cdn.jsdelivr.net/npm/vivid-icons@1.0.10" type="text/javascript"></script>
     <script src="https://unpkg.com/vivid-icons@1.0.10" type="text/javascript"></script>
     <script src="portfolio.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 1000
+        });
+    </script>
 </body>
 
 </html>
